@@ -1,0 +1,16 @@
+{
+  "name": "env-win",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npmize dev",
+    "build": "npmize build",
+    "start": "run ./src/index.ts"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "npmize": "^1.1.11",
+    "typescript": "^5.6.3"
+  }
+}
